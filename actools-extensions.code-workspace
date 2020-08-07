@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "NodeJS",
+			"path": "act-nodejs"
+		},
+		{
+			"name": "VSCode",
+			"path": "act-vscode"
+		}
+	],
+	"settings": {
+		"files.autoSave": "afterDelay",
+		"files.autoSaveDelay": 10000
+	},
+	"recommendations": [
+		"funkyremi.vscode-google-translate",
+		"esbenp.prettier-vscode",
+		"mohsen1.prettify-json",
+		"nucllear.vscode-extension-auto-import",
+		"davidanson.vscode-markdownlint"
+	  ]
+}
