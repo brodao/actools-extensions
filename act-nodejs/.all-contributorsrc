@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "brodao",
+      "name": "Alan Cândido",
+      "avatar_url": "https://secure.gravatar.com/avatar/f0aa7cdda16f3b469c22691c5bdf4047?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAC-4.png",
+      "profile": "https://github.com/brodao/",
+      "contributions": [
+        "code"
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "create-react-native-app",
+  "projectOwner": "brodao",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
