@@ -1,6 +1,6 @@
 {
 	"name": "@brodao/act-core-nod",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Rotinas de uso geral, compartilhadas com outros projetos 'AC Ferramentas'.",
 	"license": "SEE LICENSE IN LICENSE",
 	"homepage": "https://github.com/brodao/act-core-nod",
@@ -49,12 +49,12 @@
 		"commander": "^6.0.0"
 	},
 	"devDependencies": {
-		"@brodao/act-jest-snapshot-console": "^1.0.2",
-		"@commitlint/cli": "^9.1.1",
-		"@commitlint/config-conventional": "^9.1.1",
+		"@brodao/act-jest-snapshot-console": "^1.0.3",
+		"@commitlint/cli": "^9.1.2",
+		"@commitlint/config-conventional": "^9.1.2",
 		"@types/jest": "^26.0.10",
 		"@types/node": "^14.0.27",
-		"all-contributors-cli": "^6.17.1",
+		"all-contributors-cli": "^6.17.2",
 		"husky": "^4.2.5",
 		"jest": "^26.4.0",
 		"prettier": "^2.0.5",
