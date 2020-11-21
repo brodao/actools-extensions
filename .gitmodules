@@ -1,0 +1,3 @@
+[submodule "act-corejs"]
+	path = act-corejs
+	url = https://github.com/brodao/act-corejs.git
