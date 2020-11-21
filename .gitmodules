@@ -1,6 +1,6 @@
 [submodule "act-corejs"]
 	path = act-corejs
-	url = https://github.com/brodao/act-corejs.git
+url=https://github.com/brodao/act-core-js.git
 [submodule "act-wizard-js"]
 	path = act-wizard-js
 	url = https://github.com/brodao/act-wizard-js.git

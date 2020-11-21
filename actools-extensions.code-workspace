@@ -1,15 +1,12 @@
 {
 	"folders": [
 		{
-			"name": "Core-NJS",
 			"path": "act-corejs"
 		},
 		{
-			"name": "Wizard-VSCode",
 			"path": "act-wizard-vscode"
 		},
 		{
-			"name": "Wizard-NJS",
 			"path": "act-wizard-js"
 		}
 	],
