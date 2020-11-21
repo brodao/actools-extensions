@@ -1,4 +1,4 @@
-# AC Ferramentas: Extensões para VS-Code 
+# AC Ferramentas: Extensões para VS-Code e NodeJS
 
 [![CC BY license](https://img.shields.io/badge/license-CC%20BY-%2327ad79)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -16,7 +16,7 @@ Disponibiliza diversas extensões para **VS-Code**, auxiliando-o na produção e
 
 ## Licenciamento
 
-O **AC Ferramentas: Extensões para VS-Code** é de uso gratuíto por qualquer pessoa e pode ser utilizado em trabalhos com fins comerciais ou não.
+O **AC Ferramentas: Extensões para VS-Codee e NodeJS** é de uso gratuíto por qualquer pessoa e pode ser utilizado em trabalhos com fins comerciais ou não.
 
 As extensões em si, são sofwares de fonte aberto, gratuíto e distribuí­do sob a licença [CC BY-NC-SA](LICENSE).
 
