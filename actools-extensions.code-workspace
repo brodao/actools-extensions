@@ -1,16 +1,20 @@
 {
 	"folders": [
 		{
-			"name": "CoreJS",
+			"name": "Core-NJS",
 			"path": "act-corejs"
 		},
 		{
-			"name": "NodeJS",
+			"name": "Node-JS",
 			"path": "act-nodejs"
 		},
 		{
-			"name": "VSCode",
-			"path": "act-vscode"
+			"name": "Wizard-VSCode",
+			"path": "act-wizard-vscode"
+		},
+		{
+			"name": "Wizard-NJS",
+			"path": "act-wizard-js"
 		}
 	],
 	"settings": {
