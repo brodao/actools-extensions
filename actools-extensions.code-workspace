@@ -5,10 +5,6 @@
 			"path": "act-corejs"
 		},
 		{
-			"name": "Node-JS",
-			"path": "act-nodejs"
-		},
-		{
 			"name": "Wizard-VSCode",
 			"path": "act-wizard-vscode"
 		},
