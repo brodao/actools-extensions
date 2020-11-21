@@ -1,0 +1,13 @@
+{
+	"header": "# Registro de modificações\n",
+	"types": [
+		{ "type": "feat", "section": "Recursos" },
+		{ "type": "fix", "section": "Correções" },
+		{ "type": "chore", "hidden": true },
+		{ "type": "docs", "hidden": true },
+		{ "type": "style", "hidden": true },
+		{ "type": "refactor", "hidden": true },
+		{ "type": "perf", "hidden": true },
+		{ "type": "test", "hidden": true }
+	]
+}

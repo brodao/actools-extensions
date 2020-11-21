@@ -1,0 +1,88 @@
+{
+	"name": "@brodao/act-core",
+	"version": "0.0.2",
+	"description": "Rotinas de uso geral, compartilhadas com outros projetos 'AC Ferramentas'.",
+	"license": "SEE LICENSE IN LICENSE",
+	"homepage": "https://github.com/brodao/act-core-nod",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/brodao/act-core-nod.git"
+	},
+	"author": {
+		"name": "Alan Cândido",
+		"email": "brodao@gmail.com",
+		"url": "https://github.com/brodao"
+	},
+	"contributors": [],
+	"keywords": [
+		"logger"
+	],
+	"files": [
+		"lib"
+	],
+	"main": "lib/index",
+	"types": "lib/index",
+	"scripts": {
+		"clean": "rimraf lib && rimraf coverage",
+		"format": "prettier --write \"{src,tests}/**/*.ts\" --single-quote --trailing-comma es5",
+		"lint": "tslint --force --format verbose \"src/**/*.ts\"",
+		"prebuild": "npm run clean && echo Using TypeScript && tsc --version",
+		"build": "tsc --pretty",
+		"watch": "npm run build -- --watch",
+		"watch:test": "jest --watch",
+		"---TEST---": "",
+		"test": "npm run build && jest",
+		"test:snapshot": "npm test -- -u",
+		"test:coverage": "npm test -- --coverage",
+		"---RELEASE---": "",
+		"prepare": "npm run build && npm run test",
+		"release": "standard-version",
+		"release:rc": "npm run release -- --prerelease rc",
+		"tag": "git push --follow-tags",
+		"prepublishOnly": "npm run test",
+		"publish": "npm publish",
+		"---MISC---": "",
+		"contributors:add": "all-contributors add",
+		"contributors:generate": "all-contributors generate",
+		"act:link": "npm link ..\\act-jest-snapshot-console"
+	},
+	"dependencies": {
+		"@types/node": "^14.0.27",
+		"chalk": "^4.1.0",
+		"commander": "^6.0.0"
+	},
+	"devDependencies": {
+		"@brodao/act-jest-snapshot-console": "^1.0.3",
+		"@commitlint/cli": "^9.1.2",
+		"@commitlint/config-conventional": "^10.0.0",
+		"@types/jest": "^26.0.10",
+		"all-contributors-cli": "^6.17.2",
+		"husky": "^4.2.5",
+		"jest": "^26.4.0",
+		"prettier": "^2.0.5",
+		"standard-version": "^9.0.0",
+		"ts-jest": "^26.2.0",
+		"tslint": "^6.1.3",
+		"tslint-config-prettier": "^1.15.0",
+		"typescript": "^4.0.2"
+	},
+	"engines": {
+		"node": ">=10.0.0"
+	},
+	"jest": {
+		"preset": "ts-jest",
+		"snapshotSerializers": [
+			"@brodao/act-jest-snapshot-console"
+		]
+	},
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		}
+	},
+	"husky": {
+		"hooks": {
+			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+		}
+	}
+}

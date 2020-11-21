@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mensagem aninhada 1`] = `
+(no data)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+L:Mensagem aninhada
+L:Linha 1
+L:Linha 2
+L:Mensagem desaninhada
+
+`;

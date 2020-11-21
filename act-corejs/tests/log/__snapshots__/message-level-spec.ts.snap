@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Aviso com vários agumentos 1`] = `
+(no data)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+L:Aviso com argumentos
+
+`;
+
+exports[`Aviso simples 1`] = `
+(no data)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+L:Aviso simples
+
+`;
+
+exports[`Erro com vários agumentos 1`] = `
+(no data)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+L:Erro com argumentos
+
+`;
+
+exports[`Erro simples 1`] = `
+(no data)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+L:Erro simples
+
+`;
+
+exports[`Informação com vários agumentos 1`] = `
+(no data)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+L:Informação com argumentos
+
+`;
+
+exports[`Informação simples 1`] = `
+(no data)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+L:Informação simples
+
+`;
+
+exports[`Log com argumentos {} 1`] = `
+(no data)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+L:Log com argumentos {0}, {1}, {2}
+
+`;
+
+exports[`Verbose com vários agumentos 1`] = `
+(no data)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+L:Informação com argumentos
+L:  key 1 [1marg 1[22m
+L:  key 2 [1marg 2[22m
+L:  key 3 [1m3[22m
+
+`;
+
+exports[`Verbose desligado 1`] = `
+(no data)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(no data)
+`;
+
+exports[`Verbose simples 1`] = `
+(no data)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+L:Verbose simples
+
+`;

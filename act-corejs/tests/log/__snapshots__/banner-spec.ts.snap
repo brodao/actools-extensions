@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testa a apresentação ou não do 'splash' completo Apresenta o 'splash' 1`] = `
+(no data)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+L:/====================v======================================================\\
+L:| [1m    /////// //////[22m | [1mAC TOOLS[22m - Extensions for VS-Code and NodeJS         |
+L:| [1m   //   // //     [22m | (C) 2020 Alan Candido (BRODAO) <brodao@gmail.com>    |
+L:| [1m  /////// //      [22m |                                                      |
+L:| [1m //   // //       [22m | Support tools for TOTVS developers                   |
+L:| [1m//   // //////    [22m | https://github.com/brodao/workspace/projects/AFPV    |
+L:\\====================^======================================================/
+L:test_show_banner [99.99.99] Show Banner
+
+`;
+
+exports[`Testa a apresentação ou não do 'splash' completo Apresenta um 'splash' simples de identificação 1`] = `
+(no data)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+L:[1mAC TOOLS[22m - Extensions for VS-Code and NodeJS
+L:See https://github.com/brodao/workspace/projects/AFPV
+L:test_show_banner [99.99.99] Show Banner
+
+`;

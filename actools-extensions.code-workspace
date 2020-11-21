@@ -1,6 +1,10 @@
 {
 	"folders": [
 		{
+			"name": "CoreJS",
+			"path": "act-corejs"
+		},
+		{
 			"name": "NodeJS",
 			"path": "act-nodejs"
 		},
