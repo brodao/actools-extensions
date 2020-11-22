@@ -1,12 +1,13 @@
 {
 	"folders": [
 		{
-			"name": "NodeJS",
-			"path": "act-nodejs"
+			"path": "act-core-js"
 		},
 		{
-			"name": "VSCode",
-			"path": "act-vscode"
+			"path": "act-wizard-vscode"
+		},
+		{
+			"path": "act-wizard-js"
 		}
 	],
 	"settings": {
