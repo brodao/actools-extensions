@@ -4,6 +4,3 @@
 [submodule "act-wizard-vscode"]
 	path = act-wizard-vscode
 	url = https://github.com/brodao/act-wizard-vscode.git
-[submodule "act-core-js"]
-	path = act-core-js
-	url = https://github.com/brodao/act-core-js.git
