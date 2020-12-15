@@ -4,9 +4,6 @@
 			"path": "act-core-js"
 		},
 		{
-			"path": "act-wizard-vscode"
-		},
-		{
 			"path": "act-wizard-js"
 		}
 	],
